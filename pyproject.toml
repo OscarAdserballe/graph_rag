@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "graph-rag"
+version = "0.1.0"
+description = ""
+authors = ["Sundance"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-genai = "^1.2.0"
+pydantic = "^2.10.6"
+ipykernel = "^6.29.5"
+numpy = "^2.2.3"
+pillow = "^11.1.0"
+langchain-experimental = "^0.3.4"
+langchain-google-genai = "^2.0.10"
+tqdm = "^4.67.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
